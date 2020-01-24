@@ -3,7 +3,7 @@ def reverse_each_word(str)
   counter = 0
   newArr.map do |i|
     while counter < newArr.size 
-      newArr[counter] = i.reverse
+      newArr[counter] = newArr[counter].reverse
       counter += 1
     end
   end
